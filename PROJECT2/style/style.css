@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#D2D0CC;
+  
+}
+
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 600;
+    display: flex;
+}
+nav ul li img{
+    width: 100px;
+    height: 70px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftmain{
+    width: 40%;
+
+}
+.leftmain h1{
+    font-size: 60px;
+}
+.leftmain p{
+    margin: 5% 0;
+}
+
+.leftmain button{
+
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px 25px 10px 25px;
+}
+button:hover{
+    background-color: black;
+    color: #3b855b;
+    height: 70px;
+    width: 150px;
+}
+.rightmain{
+    /* width: 60%; */
+    padding: 7%;
+    
+}
+
+.rightmain div img{
+    /* width: 40%; */
+}
+/* .rightmain div img:first-child{
+    margin: 10px;
+} */
+
+.rightmain div{
+    margin-bottom: 20px;
+}
+.rightmain > img{
+    width: 64%;
+}
+
+footer ul{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer ul li a i:hover{
+    height: 15px;
+    width: 15px;
+    
+
+}
